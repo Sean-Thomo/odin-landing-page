@@ -2,4 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: red; */
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 1em 4em;
+}
+
+#nav-title{
+  margin-right: auto;
+}
+
+header li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 1em;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
 }
