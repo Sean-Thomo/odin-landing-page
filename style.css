@@ -12,7 +12,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: right;
-  padding-top: 1em;
+  padding: 1em 3em;
 }
 
 #nav-title{
@@ -28,11 +28,6 @@ header li{
 header a{
   text-decoration: none;
   color: black;
-}
-
-/* Container */
-.container{
-  padding: 0 4em;
 }
 
 /* Hero Section */
@@ -84,21 +79,31 @@ header a{
   margin-left: 4em;
 }
 
-/* Companies */
-.companies{
+/* Graduates */
+.graduates{
   background-color: black;
+  color: white;
+}
+
+.companies{
   display: flex;
   align-items: center;
-  height: 30vh;
+  padding: 2em;
+}
+
+.companies h2{
+  color: white;
 }
 
 .card{
-  height: auto;
-  border: 2px white solid;
+  flex: 1;
+  margin: 1em;
+  /* height: auto;
+  border: 2px white solid; */
   justify-content: center;
   display: inline-block;
 }
 
 .card img{
-  width: 100px;
+  width: 7em;
 }
