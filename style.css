@@ -97,6 +97,7 @@ header a{
   background-color: white;
   color: black;
   border-radius: 25px;
+  padding: 1em;
 }
 
 .card img{
@@ -110,5 +111,5 @@ header a{
   background-color: beige;
   display: grid;
   padding: 4em;
-  
+  font-size: 1.7em;
 }
