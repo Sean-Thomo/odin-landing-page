@@ -109,7 +109,12 @@ header a{
 }
 
 .card img{
-  padding: 1em;
+  margin: 1em;
   width: 10em;
   height: 10em;
+}
+
+.card h4{
+  margin-left: 50px;
+  padding: 1em;
 }
