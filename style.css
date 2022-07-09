@@ -32,8 +32,8 @@ header a{
 
 /* Hero Section */
 .hero-section{
-  height: 80vh;
   display: flex;
+  height: 70vh;
   align-items: center;
 }
 
@@ -83,27 +83,31 @@ header a{
 .graduates{
   background-color: black;
   color: white;
+  padding: 3em;
+  overflow-x: hidden;
+}
+
+.graduates h2{
+  margin-left: 18em;
 }
 
 .companies{
   display: flex;
-  align-items: center;
-  padding: 2em;
-}
-
-.companies h2{
-  color: white;
+  padding: 0 1em;
+  flex-direction: row;
 }
 
 .card{
-  flex: 1;
   margin: 1em;
-  /* height: auto;
-  border: 2px white solid; */
+  width: 12em;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
   justify-content: center;
-  display: inline-block;
 }
 
 .card img{
-  width: 7em;
+  padding: 1em;
+  width: 10em;
+  height: 10em;
 }
