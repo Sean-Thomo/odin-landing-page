@@ -7,6 +7,12 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+.center,h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Navigation */
 header{
   display: flex;
@@ -76,36 +82,21 @@ header a{
 .right img{
   width: 75%;
   height: auto;
-  align-items: center;
-  margin-left: 4em;
 }
 
 /* Graduates */
 .graduates{
   background-color: black;
   color: white;
-  padding: 3em;
   overflow-x: hidden;
-}
-
-.graduates h2{
-  margin-left: 18em;
-}
-
-.companies{
-  display: flex;
-  padding: 0 1em;
-  flex-direction: row;
-  justify-content: center;
+  padding: 3em;
 }
 
 .card{
   margin: 1em;
-  width: 12em;
   background-color: white;
   color: black;
   border-radius: 25px;
-  justify-content: center;
 }
 
 .card img{
@@ -114,7 +105,10 @@ header a{
   height: 10em;
 }
 
-.card h4{
-  margin-left: 50px;
-  padding: 1em;
+.testimonials{
+  height: 50vh;
+  background-color: beige;
+  display: grid;
+  padding: 4em;
+  
 }
