@@ -124,3 +124,10 @@ header a{
   color: white;
   border-radius: 25px;
 }
+
+.footer{
+  background-color: black;
+  color: white;
+  /* margin: 1em; */
+  height: 15vh;
+}
