@@ -125,9 +125,8 @@ header a{
   border-radius: 25px;
 }
 
-.footer{
+footer{
   background-color: black;
   color: white;
-  /* margin: 1em; */
   height: 15vh;
 }
