@@ -108,8 +108,19 @@ header a{
 
 .testimonials{
   height: 50vh;
-  background-color: beige;
+  background-color: grey;
   display: grid;
   padding: 4em;
   font-size: 1.7em;
+}
+
+.cta{
+  margin: 10em;
+}
+
+.cta-content{
+  padding: 2em;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
 }
