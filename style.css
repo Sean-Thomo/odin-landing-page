@@ -57,10 +57,11 @@ header a{
 #sign-up{
   background-color: white;
   color: black;
-  border: 1px black solid;
+  border: 2px black solid;
   margin-top: 100em;
   padding: 1em;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .wave-emo{
@@ -95,6 +96,7 @@ header a{
   display: flex;
   padding: 0 1em;
   flex-direction: row;
+  justify-content: center;
 }
 
 .card{
