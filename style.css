@@ -45,6 +45,8 @@ header a{
 .left{
   margin: 0 1em;
   height: auto;
+  width: 50%;
+  padding: 0 4em;
 }
 
 .left h1{
@@ -68,6 +70,11 @@ header a{
 
 .wave-emo{
   font-size: 30px;
+}
+
+.right{
+  width: 55%;
+
 }
 
 .right img{
